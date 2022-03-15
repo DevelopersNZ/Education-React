@@ -51,38 +51,38 @@ class Services extends Component {
            return (
           <Fragment>
                <Container className="text-center">
-                    <LightSpeed top>
+                   
                          <h1 className="serviceMainTitle">MY SERVICES</h1>
                          <div className="bottom"></div>
-                    </LightSpeed>
+                  
                     <Row>
 
                          <Col lg={4} md={6} sm={12}>
-                              <Zoom top>
+                             
                                    <div className="serviceCard text-center">
                                         <img className="ecommerceIcon" src={ecommerceIcon} />
                                         <h2 className="serviceName">Ecommerce</h2>
                                         <p className="serviceDescription">Mydata</p>
                                    </div>
-                              </Zoom>
+                           
                          </Col>
                          <Col lg={4} md={6} sm={12}>
-                              <Zoom top>
+                          
                                    <div className="serviceCard text-center">
                                         <img className="ecommerceIcon" src={ecommerceIcon} />
                                         <h2 className="serviceName">Ecommerce</h2>
                                         <p className="serviceDescription">Mydata</p>
                                    </div>
-                              </Zoom>
+                           
                          </Col>
                          <Col lg={4} md={6} sm={12}>
-                              <Zoom top>
+                           
                                    <div className="serviceCard text-center">
                                         <img className="ecommerceIcon" src={ecommerceIcon} />
                                         <h2 className="serviceName">Ecommerce</h2>
                                         <p className="serviceDescription">Mydata</p>
                                    </div>
-                              </Zoom>
+                           
                          </Col>
 
                     </Row>

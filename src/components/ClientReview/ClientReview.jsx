@@ -90,43 +90,29 @@ class ClientReview extends Component {
 
           return (
                <Fragment>
-
                     <Container fluid={true} className="siderBack text-center">
-
                          <h1 className="reviewMainTitle p-3">TESTIMOIAL</h1>
                          <div className="reviewbottom"></div>
-
                          <Slider {...settings}>
                               <div>
                                    <Row className="text-center justify-content-center">
                                         <Col lg={6} md={6} sm={12}>
-
                                              <img className="circleImg" src={recent1} />
                                              <h2 className="reviewName">data</h2>
                                              <p className="reviewDescription">If you are looking to use custom breakpoints, you must wrap your application with a theme provider and use the breakpoints prop to specify the breakpoints you will use. This ensures that components such as Row or Col can parse the correct custom breakpoint props.</p>
-
-
                                         </Col>
                                    </Row>
                               </div>
                               <div>
                                    <Row className="text-center justify-content-center">
                                         <Col lg={6} md={6} sm={12}>
-
                                              <img className="circleImg" src={recent1} />
                                              <h2 className="reviewName">data</h2>
                                              <p className="reviewDescription">If you are looking to use custom breakpoints, you must wrap your application with a theme provider and use the breakpoints prop to specify the breakpoints you will use. This ensures that components such as Row or Col can parse the correct custom breakpoint props.</p>
-
-
                                         </Col>
                                    </Row>
                               </div>
-
-
                          </Slider>
-
-
-
                     </Container>
                </Fragment>
           )

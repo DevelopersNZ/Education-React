@@ -58,7 +58,7 @@ class ContactSec extends Component {
                          <Container className="mt-5">
                               <Row>
                                    <Col lg={6} md={6} sm={12}>
-                                        <Zoom left>
+                                      
                                              <h1 className="serviceName">Quick Connect</h1>
 
 
@@ -84,14 +84,14 @@ class ContactSec extends Component {
                                                        Submit
                                                   </Button>
                                              </Form>
-                                        </Zoom>
+                                      
 
                                    </Col>
 
 
 
                                    <Col lg={6} md={6} sm={12}>
-                                        <Zoom right>
+                                       
                                              <h1 className="serviceName">Discuss Now</h1>
 
                                              <p className="serviceDescription">
@@ -99,7 +99,7 @@ class ContactSec extends Component {
                                                   <FontAwesomeIcon icon={faEnvelope} /> Email : gyathursan@gmail.com<br></br>
                                                   <FontAwesomeIcon icon={faPhone} /> Phone : gyathursan@gmail.com<br></br>
                                              </p>
-                                        </Zoom>
+                                      
                                    </Col>
                               </Row>
                          </Container>

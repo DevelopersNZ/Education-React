@@ -47,12 +47,12 @@ class RefundDescription extends Component {
        <h1 className="serviceName">Data Protection Principles</h1>
        </RubberBand>
                     <hr />
-                    <Zoom top>
+                    
      <p className="serviceDescription">
           
 { ReactHtmlParser(this.state.refunddesc) }
 
-     </p></Zoom>
+     </p>
 
                </Col>
           </Row>

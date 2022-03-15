@@ -39,7 +39,7 @@ class AllProjects extends Component {
       const MyView = MyList.map(MyList => {
 
         return <Col lg={4} md={6} sm={12}>
-          <Zoom top>
+          
             <Card className="projectCard">
               <Card.Img variant="top" src={MyList.img_one} />
               <Card.Body>
@@ -49,7 +49,7 @@ class AllProjects extends Component {
                 <Button variant="primary"><Link className="link-style" to={"/projectdetails/" + MyList.id + "/" + MyList.project_name}> View More </Link>  </Button>
               </Card.Body>
             </Card>
-          </Zoom>
+        
         </Col>
 
       })
